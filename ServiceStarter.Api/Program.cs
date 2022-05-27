@@ -15,7 +15,7 @@ namespace ServiceStarter.Api
             CreateHostBuilder("http://0.0.0.0:5005/", args).Run();
         }
 
-        public static IHost CreateHostBuilder(string baseUri, string[] args)
+        public static IHost CreateHostBuilder(string baseUri, params string[] args)
         {
             var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? Environments.Production;
 
