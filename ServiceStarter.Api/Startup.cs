@@ -26,7 +26,7 @@ namespace ServiceStarter.Api
 
             services.AddSwaggerDocument(config =>
             {
-                config.Title = "Playlist Manager API";
+                config.Title = "Service Starter API";
                 config.Version = "v1";
             });
 

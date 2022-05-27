@@ -1,7 +1,7 @@
 NEW_NAME=$1
 PORT=$2
 
-OLD_NAME=PlaylistManager
+OLD_NAME=ServiceStarter
 
 mkdir ./$NEW_NAME
 
